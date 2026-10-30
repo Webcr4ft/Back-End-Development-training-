@@ -1,0 +1,69 @@
+# What Is npm?
+
+## The Problem
+
+When you build a JavaScript app, you need a lot of features: saving data, user logins, moving between pages, and more.
+
+Writing all of that yourself takes a long time. Luckily, other developers have already built many of these features and shared them for free. These shared pieces of code are called **packages**.
+
+## The Solution: npm
+
+**npm is like an app store for code.**
+
+- On your phone, you search the app store, tap install, and use the app.
+- With npm, you search for a package, run one command, and use it in your project.
+
+```bash
+npm install package-name
+```
+
+For example, you can find packages for:
+
+- Handling dates
+- Sending emails
+- Making HTTP requests
+- Managing state
+
+## What Does "npm" Stand For?
+
+Many people think it means "Node Package Manager." It doesn't.
+
+The old npm docs joked that it means *"npm is not an acronym."* So npm doesn't officially stand for anything. It's just a name.
+
+## The 3 Parts of npm
+
+When people say "npm," they usually mean one of these:
+
+| Part | What it is | Simple way to think of it |
+|------|------------|---------------------------|
+| **Website** (npmjs.com) | A site where you search for packages | The store window |
+| **Registry** | A giant online database holding all the packages | The warehouse |
+| **CLI tool** | A command-line tool that comes with Node.js | The tool you use to get packages |
+
+## npm Also Keeps Track of Your Packages
+
+Your project may use many packages. npm remembers which ones, and which version of each, using two files:
+
+- `package.json`: the list of packages your project needs
+- `package-lock.json`: the exact versions that were installed
+
+You'll learn more about these files in later lessons.
+
+## Other Tools Like npm
+
+npm isn't the only option. These do a similar job:
+
+- **Yarn**
+- **pnpm**
+- **Bun**
+
+Some are faster or use less disk space, but **npm is still the most popular.**
+
+## Coming Up
+
+In the next lessons, you'll learn how to:
+
+1. Use common npm commands
+2. Install packages
+3. Understand `package.json` and `package-lock.json`
+4. Publish your own package to npm
